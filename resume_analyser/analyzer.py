@@ -48,7 +48,10 @@ _PATTERNS = {skill: tuple(_compile(p) for p in skill.patterns) for skill in SKIL
 
 def find_skills(text: str) -> set[Skill]:
     lowered = text.lower()
-    return {skill for skill, patterns in _PATTERNS.items() if any(p.search(lowered) for p in patterns)}
+    # Also try with hyphens as spaces so "data-quality" matches "data quality".
+    variants = (lowered, lowered.replace("-", " "))
+    return {skill for skill, patterns in _PATTERNS.items()
+            if any(p.search(v) for p in patterns for v in variants)}
 
 
 def analyse(text: str, job_text: str | None = None, job_name: str = "") -> AnalysisResult:

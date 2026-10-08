@@ -79,3 +79,7 @@ def test_market_demand():
 def test_ai_terms_do_not_match_inside_words():
     assert "Generative AI & LLMs" not in names(find_skills("Maintained email campaigns"))
     assert "Generative AI & LLMs" in names(find_skills("Built AI-ready data platforms"))
+
+
+def test_hyphenated_terms_match():
+    assert "Data Quality" in names(find_skills("resolved data-quality incidents"))

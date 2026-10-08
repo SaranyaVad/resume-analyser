@@ -117,7 +117,8 @@ SKILLS: tuple[Skill, ...] = (
     _s(DEVOPS, "Terraform / IaC", 15, "terraform", "infrastructure as code", "iac", "cloudformation"),
     _s(DEVOPS, "Kubernetes", 15, "k8s", "eks", "aks", "gke"),
     # Quality & governance
-    _s(QUALITY, "Data Quality", 25, "data validation", "great expectations", "data testing", "reconciliation",
+    _s(QUALITY, "Data Quality", 25, "data validation", "schema validation", "great expectations", "data testing",
+       "reconciliation",
        "dqx", "data metric functions", "quarantine"),
     _s(QUALITY, "Data Contracts", 6, "data contract", "data contracts", "schema registry"),
     _s(QUALITY, "Data Security & Access Control", 20, "access control", "rbac", "row-level security",
