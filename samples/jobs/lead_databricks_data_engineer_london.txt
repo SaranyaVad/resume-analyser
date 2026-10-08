@@ -1,0 +1,19 @@
+Lead Databricks Data Engineer — £600 - £700 per day, London, hybrid
+
+This freelance opportunity offers the chance to shape the future-state data platform for a large, complex financial services organisation. The focus is on moving from slow, batch-based analytics towards a more modern, streaming-led architecture, with clear ownership over data vision, use cases, and delivery direction.
+
+The Role and Deliverables
+* Define a clear end-to-end data vision, covering current state, target architecture, and practical steps to get there.
+* Lead the design and development of a Databricks-based medallion architecture, with a strong focus on a robust Gold layer for analytics.
+* Improve data availability by shifting from monthly batch processes towards more frequent or streaming ingestion where appropriate.
+* Act as the senior technical decision-maker on data use cases, prioritisation, and trade-offs.
+* Work closely with onshore teams and an offshore partner to unblock progress, clarify ownership, and accelerate delivery.
+* Provide regular, clear updates to senior stakeholders, ensuring alignment on progress and next steps.
+
+Your Skills & Experience
+* Strong experience as a Lead Data Engineer within financial services, ideally pensions or a similarly regulated environment.
+* Proven capability designing and delivering modern data platforms using Databricks and medallion architecture principles.
+* Experience dealing with large volumes of legacy data and integrating it with modern analytics platforms.
+* Confidence defining data use cases and translating business needs into technical delivery.
+* Ability to lead mixed teams across onshore and offshore models and make effective resource allocation decisions.
+* Excellent communication skills, with the credibility to engage senior stakeholders and drive momentum.

@@ -1,0 +1,32 @@
+Senior Data Engineer — 73 Strings (UK)
+
+About The Role
+We are hiring a Senior Data Engineer to build and operate the pipelines, integrations and warehouse that support valuation and monitoring.
+You will own production pipelines from source capture through transformation, reconciliation and client delivery, and put them under GitHub, automated test and CI/CD. The platform currently captures change data from relational systems, processes it on Azure Databricks, and delivers it to Snowflake, Microsoft SQL Server and Databricks. Copied client pipelines are being replaced by metadata-driven components, with data contracts, quality rules and lineage.
+
+What you will do
+* Help redefine the platform's architecture across ingestion, processing and delivery, so it's stable, secure and fast enough to support advanced use cases for the business.
+* Build and operate batch and streaming pipelines from databases, APIs, event streams and semi-structured sources.
+* Implement change data capture and incremental load, including ordering, deletes, replay and slowly changing dimensions.
+* Build medallion datasets and dimensional models, and deliver them to Snowflake, Microsoft SQL Server and Databricks.
+* Apply data contracts, reconciliation and row-level quarantine before publication.
+* Own the GitHub workflow and CI/CD, including tests, review, environment promotion and deployment as code.
+* Investigate production data failures, and turn requirements from product, valuation and client-facing teams into operable pipelines.
+
+Requirements
+* 10+ years in data engineering on production systems.
+* Snowflake or Databricks as a primary platform, including modelling, performance tuning and cost management.
+* Python and SQL for pipeline development and testing.
+* Change data capture and event processing, including ordering, replay and schema change.
+* Azure, including Databricks, ADLS and private network connectivity.
+* GitHub and CI/CD for data workloads, using GitHub Actions or an equivalent system.
+* Data quality, reconciliation, monitoring and production incident response.
+* Experience building multi-tenant, secure data platforms, including tenant isolation, access control and data protection.
+
+Desirable
+* Databricks Lakeflow, Auto CDC, Declarative Automation Bundles and DQX, or the Snowflake equivalents: Dynamic Tables, Streams and Tasks, Snowpark, Snowflake CLI deployments and Data Metric Functions.
+* Debezium, Kafka Connect or Confluent Kafka.
+* Apache Airflow, or an equivalent workflow orchestrator.
+* Kafka or Spark Structured Streaming, Apache Iceberg or Delta Sharing, and dbt for analytical models on curated data.
+* Private markets data: valuations, funds, portfolio companies or capital activity.
+* Comfortable working directly with client technical teams, and collaborating across field engineering, product and other stakeholders.

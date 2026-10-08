@@ -1,0 +1,27 @@
+AI Data Engineer (AVP) — Markets, London
+
+We're seeking an AI Data Engineer to support with building next-generation analytics and AI-ready data platforms on KDB+ that directly power trading, research, and risk use cases across Markets.
+
+To be successful in this role you will
+* Be a motivated engineer with foundational experience with data pipelines, and emerging AI techniques
+* Hold previous experience contributing to AI-related use cases or pilots, and show a clear interest in how technology is evolving across front-office trading environments
+* Bring a learning mindset and an understanding of the challenges involved in applying AI responsibly within low-latency, high-risk trading systems
+
+Other useful skills
+* Financial Services/Investment banking background
+* Timeseries, Front office trading tech experience
+* Experience collaborating with a wide range of stakeholders, including business, technology, and senior leaders
+
+Purpose of the role
+To build and maintain the systems that collect, store, process, and analyse data, such as data pipelines, data warehouses and data lakes to ensure that all data is accurate, accessible, and secure.
+
+Accountabilities
+* Build and maintenance of data architectures pipelines that enable the transfer and processing of durable, complete and consistent data.
+* Design and implementation of data warehouses and data lakes that manage the appropriate data volumes and velocity and adhere to the required security measures.
+* Development of processing and analysis algorithms fit for the intended data complexity and volumes.
+* Collaboration with data scientists to build and deploy machine learning models.
+
+AVP expectations (summary)
+* Advise and influence decision making; lead a team or lead collaborative assignments and guide team members.
+* Identify ways to mitigate risk and develop new policies/procedures in support of the control and governance agenda.
+* Communicate complex information and influence stakeholders to achieve outcomes.

@@ -1,0 +1,24 @@
+Senior Data Engineer – Consulting — London, hybrid (3 days/week), up to £100,000
+
+You must have a Databricks certification (can be expired) at associate or professional level.
+
+Our client is a growing global tech consultancy that helps some of the world's biggest businesses bring their data, AI, cloud and digital solutions to life. The business are now on the Databricks partnership pathway.
+
+What You'll Do
+* Design and build pipelines to ingest, transform and load data
+* Set up data lakes and warehouses for scalable access
+* Ensure systems are secure, reliable and cost-effective
+* Collaborate closely with analysts, ML engineers and platform teams
+
+Tech You'll Work With
+* Python, Spark, Airflow
+* Databricks, BigQuery, Neo4J
+* dbt, Fivetran, Terraform
+* Azure, GCP, AWS
+
+What We're Looking For
+* Solid hands-on experience building scalable data pipelines
+* Databricks certification (can be expired)
+* Comfort working across the modern data stack (ingestion, orchestration, warehousing)
+* A collaborative mindset - happy working independently but strong as part of a team
+* Curiosity and appetite to experiment with new tools and approaches

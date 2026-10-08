@@ -1,0 +1,18 @@
+Jane Doe — Data Engineer
+London, UK
+
+SUMMARY
+Data engineer with 3 years of experience building ETL pipelines in Python and SQL.
+
+EXPERIENCE
+Data Engineer, Acme Retail (2023 – present)
+- Built batch data pipelines with Apache Airflow and PySpark on AWS (S3, EMR, Glue).
+- Modelled a star schema data warehouse in Snowflake; transformations with dbt.
+- Improved query performance by 40% through partitioning and query optimisation.
+- Worked with stakeholders in an Agile team; code in GitHub with CI/CD via GitHub Actions.
+
+Junior Data Analyst, Beta Ltd (2021 – 2023)
+- Built Power BI dashboards on PostgreSQL data.
+
+SKILLS
+Python, SQL, PySpark, Airflow, dbt, Snowflake, AWS, PostgreSQL, Git, Docker, Power BI

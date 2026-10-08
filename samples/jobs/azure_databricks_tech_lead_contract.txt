@@ -1,0 +1,19 @@
+Technical Lead — Azure Data Platform & Databricks (Contract, UK)
+Contract Duration: 6 months · Inside IR35 · Daily rate: £700
+
+Overview:
+We are seeking a highly experienced Technical Lead with deep expertise in the Azure Data Platform and Databricks ecosystem. The ideal candidate should have strong hands-on experience with Structured Streaming, Delta Live Tables (DLT), PySpark architecture, Python, and SQL, and a proven track record of delivering large-scale enterprise data platforms.
+
+Key Responsibilities
+* Leading the design, development, and implementation of scalable, high-performance data solutions on Azure and Databricks.
+* Defining and driving data strategy, data governance, data quality, and platform best practices.
+* Optimising platform runtime performance and managing overall cloud costs, with a strong focus on Databricks streaming workloads.
+* Providing end-to-end technical leadership, from solution architecture through delivery and production support.
+* Collaborating with business stakeholders to understand requirements and translate them into robust technical solutions.
+* Demonstrating strong ownership, accountability, and stakeholder management skills.
+
+Essential Skills & Experience
+* Strong hands-on experience with Structured Streaming, Delta Live Tables (DLT), PySpark architecture, Python, and SQL.
+* Experience within the financial trading domain, including knowledge of trading data models and related business processes.
+* Ability to drive technical decision-making, mentoring engineering teams, and ensuring successful delivery of business outcomes.
+* Excellent communication skills, strong leadership capabilities, and the ability to influence technical direction.
