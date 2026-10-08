@@ -7,7 +7,7 @@ skills to learn next.
 ## Features
 
 - Reads **PDF, DOCX and TXT** resumes.
-- Uses a catalog of **69 Data Engineer skills** in 14 categories, each with a
+- Uses a catalog of **68 Data Engineer skills** in 14 categories, each with a
   job-market demand percentage and a tier (Must-have ≥ 40%, Important 20–39%,
   Nice-to-have < 20%).
 - Gives a **demand-weighted match score**, overall and per category.
