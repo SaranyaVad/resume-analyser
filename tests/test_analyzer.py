@@ -70,8 +70,8 @@ def test_market_demand():
     from resume_analyser.market import measure
 
     market = measure(SAMPLE.parent / "jobs")
-    assert market.job_count == 5
-    assert market.percent(BY_NAME["Databricks"]) == 80
+    assert market.job_count == 6
+    assert market.percent(BY_NAME["Communication & Collaboration"]) == 100
     ranked = [pct for _, pct in market.ranked()]
     assert ranked == sorted(ranked, reverse=True)
 

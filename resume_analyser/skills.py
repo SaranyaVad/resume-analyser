@@ -54,6 +54,8 @@ SKILLS: tuple[Skill, ...] = (
     _s(PROGRAMMING, "Python", 78, "pandas", "pyspark"),
     _s(PROGRAMMING, "Java", 22),
     _s(PROGRAMMING, "Scala", 18),
+    _s(PROGRAMMING, "API Development", 12, "rest api", "fastapi", "flask", "api integration", "graphql"),
+    _s(PROGRAMMING, "TypeScript / JavaScript", 5, "typescript", "javascript", "node.js", "nodejs"),
     _s(PROGRAMMING, "Shell Scripting", 15, "bash", "shell script", "unix shell", "linux"),
     # Big data processing
     _s(PROCESSING, "Apache Spark", 55, "spark", "pyspark", "spark sql"),
@@ -68,7 +70,7 @@ SKILLS: tuple[Skill, ...] = (
     _s(STREAMING, "AWS Kinesis", 8, "kinesis"),
     _s(STREAMING, "Pub/Sub & Event Hubs", 8, "pub/sub", "pubsub", "event hubs", "eventhub"),
     # Cloud
-    _s(CLOUD, "AWS", 50, "amazon web services", "s3", "emr", "redshift", "glue"),
+    _s(CLOUD, "AWS", 50, "amazon web services", "s3", "emr", "redshift", "glue", "ecs", "rds"),
     _s(CLOUD, "Azure", 38, "microsoft azure", "adls", "data lake storage", "synapse"),
     _s(CLOUD, "GCP", 25, "google cloud", "bigquery", "dataflow", "dataproc"),
     # Warehouses & lakehouses
@@ -119,7 +121,8 @@ SKILLS: tuple[Skill, ...] = (
        "dqx", "data metric functions", "quarantine"),
     _s(QUALITY, "Data Contracts", 6, "data contract", "data contracts", "schema registry"),
     _s(QUALITY, "Data Security & Access Control", 20, "access control", "rbac", "row-level security",
-       "tenant isolation", "multi-tenant", "encryption", "gdpr", "data protection", "pii"),
+       "tenant isolation", "multi-tenant", "encryption", "gdpr", "data protection", "pii", "iso 27001",
+       "soc 2"),
     _s(QUALITY, "Monitoring & Incident Response", 15, "monitoring", "observability", "alerting",
        "incident response", "production support", "on-call"),
     _s(QUALITY, "Data Governance", 18, "unity catalog", "data catalog", "lineage", "collibra", "purview"),
@@ -130,11 +133,12 @@ SKILLS: tuple[Skill, ...] = (
     _s(BI, "Power BI", 15, "powerbi"),
     _s(BI, "Tableau", 14),
     _s(BI, "Looker", 6, "lookml"),
+    _s(BI, "Semantic Layer", 6, "semantic layer", "cube.dev", "cube", "lookml", "dbt metrics", "metricflow"),
     # AI & machine learning
     _s(AI, "ML Pipelines & MLOps", 15, "machine learning", "ml model", "mlops", "mlflow", "feature store",
        "scikit-learn", "sklearn"),
     _s(AI, "Generative AI & LLMs", 10, "ai", "genai", "generative ai", "llm", "large language model", "rag",
-       "vector database", "embedding", "ai-ready"),
+       "vector database", "embedding", "ai-ready", "ai agent", "cortex", "claude", "openai"),
     # Certifications
     _s(CERTS, "Cloud Data Certification", 15, "dp-203", "dp-700", "azure data engineer associate",
        "fabric data engineer", "aws certified", "google professional data engineer",

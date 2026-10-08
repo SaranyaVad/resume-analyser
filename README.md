@@ -7,7 +7,7 @@ skills to learn next.
 ## Features
 
 - Reads **PDF, DOCX and TXT** resumes.
-- Uses a catalog of **65 Data Engineer skills** in 14 categories, each with a
+- Uses a catalog of **69 Data Engineer skills** in 14 categories, each with a
   job-market demand percentage and a tier (Must-have ≥ 40%, Important 20–39%,
   Nice-to-have < 20%).
 - Gives a **demand-weighted match score**, overall and per category.
@@ -65,6 +65,8 @@ To change them, edit `resume_analyser/skills.py`.
 | Java | `████░░░░░░░░░░░░░░░░` | 22% | Important |
 | Scala | `████░░░░░░░░░░░░░░░░` | 18% | Nice-to-have |
 | Shell Scripting | `███░░░░░░░░░░░░░░░░░` | 15% | Nice-to-have |
+| API Development | `██░░░░░░░░░░░░░░░░░░` | 12% | Nice-to-have |
+| TypeScript / JavaScript | `█░░░░░░░░░░░░░░░░░░░` | 5% | Nice-to-have |
 
 ### Big Data Processing
 
@@ -168,6 +170,7 @@ To change them, edit `resume_analyser/skills.py`.
 | Power BI | `███░░░░░░░░░░░░░░░░░` | 15% | Nice-to-have |
 | Tableau | `███░░░░░░░░░░░░░░░░░` | 14% | Nice-to-have |
 | Looker | `█░░░░░░░░░░░░░░░░░░░` | 6% | Nice-to-have |
+| Semantic Layer | `█░░░░░░░░░░░░░░░░░░░` | 6% | Nice-to-have |
 
 ### AI & Machine Learning
 
@@ -191,18 +194,19 @@ To change them, edit `resume_analyser/skills.py`.
 | Agile / Scrum | `████░░░░░░░░░░░░░░░░` | 20% | Important |
 | Technical Leadership & Mentoring | `███░░░░░░░░░░░░░░░░░` | 15% | Nice-to-have |
 
-## What the 5 sample UK job ads ask for
+## What the 6 sample UK job ads ask for
 
 From `python -m resume_analyser --market samples/jobs`. The ads are 4 senior or lead
-Databricks/Azure roles (London/UK, permanent and contract) and 1 AI Data Engineer
-role on KDB+:
+Databricks/Azure roles (London/UK, permanent and contract), 1 AI Data Engineer role
+on KDB+ and 1 retail-AI start-up role (Snowflake, dbt, Cube):
 
-| Skill | % of the 5 ads |
+| Skill | % of the 6 ads |
 |---|---:|
 | Communication & Collaboration | 100% |
-| Databricks, Data Lake / Lakehouse | 80% |
-| Python, Apache Spark, Azure, Technical Leadership | 60% |
-| SQL, ETL/ELT, Airflow, dbt, Data Quality, Data Governance, Monitoring, Spark Streaming, Generative AI, Delta Live Tables | 40% |
+| Databricks | 83% |
+| Python, Data Lake / Lakehouse | 67% |
+| SQL, Spark, Azure, dbt, Data Quality, Technical Leadership, Generative AI | 50% |
+| ETL/ELT, AWS, Snowflake, Airflow, Data Modeling, Data Warehousing, Governance, Security | 33% |
 
 ## Tests
 
