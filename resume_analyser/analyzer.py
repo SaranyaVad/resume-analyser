@@ -57,7 +57,11 @@ def find_skills(text: str) -> set[Skill]:
 def analyse(text: str, job_text: str | None = None, job_name: str = "") -> AnalysisResult:
     """Score resume text against all Data Engineer skills, or only those a job description asks for."""
     found = find_skills(text)
-    wanted = SKILLS if job_text is None else tuple(s for s in SKILLS if s in find_skills(job_text))
+    if job_text is None:
+        wanted = SKILLS
+    else:
+        in_job = find_skills(job_text)
+        wanted = tuple(s for s in SKILLS if s in in_job)
     matched = tuple(s for s in wanted if s in found)
     missing = tuple(s for s in wanted if s not in found)
     categories = tuple(
